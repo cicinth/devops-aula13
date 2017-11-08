@@ -9,7 +9,13 @@
 <table class="table">
     <tr><th>Nome do  Candidato</th></tr>
         {% for candidato in candidatoss %}
-          <tr><td>{{ candidato.nome }}</td></tr>
+          <tr><td>{{ candidato.nome }}</td>
+            <td>{{ candidato.rg }}</td>
+            <td>{{ candidato.cpf }}</td>
+            <td>{{ candidato.endereco }}</td>
+            <td>{{ candidato.telefone }}</td>
+        </tr>
+          
         {% endfor %}
 </table>
 
