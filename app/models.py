@@ -21,3 +21,12 @@ class Candidato(models.Model):
     telefone = models.CharField(max_length=200)
 
 
+class LocalProva(models.Model):
+    nome_escola = models.CharField(max_length=200)
+    endereco = models.CharField(max_length=200)
+    cidade = models.CharField(max_length=200)
+    estado = models.CharField(max_length=200)
+
+
+
+    
